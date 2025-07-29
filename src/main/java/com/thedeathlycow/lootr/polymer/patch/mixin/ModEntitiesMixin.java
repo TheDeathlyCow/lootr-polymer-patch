@@ -20,7 +20,7 @@ public class ModEntitiesMixin {
                     target = "Lnet/minecraft/registry/Registry;register(Lnet/minecraft/registry/Registry;Lnet/minecraft/util/Identifier;Ljava/lang/Object;)Ljava/lang/Object;"
             )
     )
-    private static Object polymerizeLootrItems(
+    private static Object polymerizeLootrEntities(
             Registry<Object> registry,
             Identifier id,
             Object entry,

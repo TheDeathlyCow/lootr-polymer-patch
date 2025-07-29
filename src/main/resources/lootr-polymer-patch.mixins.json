@@ -6,12 +6,13 @@
         "ModBlockEntitiesMixin",
         "ModBlocksMixin",
         "ModEntitiesMixin",
-        "ModItemsMixin"
+        "ModItemsMixin",
+        "ModStatsMixin"
     ],
     "injectors": {
         "defaultRequire": 1
     },
     "overwrites": {
         "requireAnnotations": true
-	}
+    }
 }
