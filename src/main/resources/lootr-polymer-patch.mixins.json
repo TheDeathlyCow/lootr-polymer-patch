@@ -3,8 +3,9 @@
     "package": "com.thedeathlycow.lootr.polymer.patch.mixin",
     "compatibilityLevel": "JAVA_21",
     "mixins": [
-        "LootrContainerBlockMixin",
         "ModBlockEntitiesMixin",
+        "ModBlocksMixin",
+        "ModEntitiesMixin",
         "ModItemsMixin"
     ],
     "injectors": {
