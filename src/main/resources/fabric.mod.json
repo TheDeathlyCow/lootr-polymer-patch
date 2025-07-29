@@ -5,11 +5,12 @@
 	"name": "Lootr Polymer Patch",
 	"description": "Polymer patch for Lootr so that it can work fully server side",
 	"authors": [
-		"TheDeatlhyCow"
+		"TheDeathlyCow"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.github.com/TheDeathlyCow",
+		"sources": "https://www.github.com/TheDeathlyCow/lootr-polymer-patch",
+		"issues": "https://www.github.com/TheDeathlyCow/lootr-polymer-patch/issues"
 	},
 	"license": "LGPL-3.0",
 	"icon": "assets/lootr-polymer-patch/icon.png",
@@ -26,9 +27,8 @@
 		"fabricloader": ">=0.16.14",
 		"minecraft": "~1.21.8",
 		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
+		"fabric-api": "*",
+		"lootr": "*",
+		"polymer-core": "*"
 	}
 }
